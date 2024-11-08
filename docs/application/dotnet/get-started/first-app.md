@@ -447,6 +447,7 @@ To modify the application by adding a button and label, follow the steps below:
             text.WidthResizePolicy = ResizePolicyType.FitToChildren;
             root.Add(text);
 
+            ButtonStateLabel = new TextLabel("");
             ButtonStateLabel.Text = string.Format("Clicked counter: {0}", ClickedCounter);
             ButtonStateLabel.HorizontalAlignment = HorizontalAlignment.Center;
             ButtonStateLabel.VerticalAlignment = VerticalAlignment.Center;
